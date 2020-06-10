@@ -1,0 +1,107 @@
+body {
+  font-family: 'Oswald', sans-serif;
+
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background-color: #660066;
+}
+nav ul {
+  font-size: 1rem;
+}
+nav h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.5rem;
+}
+.descrip {
+  font-family: 'Roboto', sans-serif;
+  }
+header {
+  background-image: url(../img/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 8rem;
+  margin-top: 4rem;
+  padding-top: 28rem;
+  text-shadow: 0.125em 0.25em 0.125em #707070;
+  font-family: 'Oswald', sans-serif;
+}
+@media (min-width: 480px) {
+    header {
+        background-image: url(../img/hero.jpg);
+    }
+}
+@media (min-width: 768px) {
+    header {
+        background-image: url(../img/hero.jpg);
+    }
+    header h1{
+
+      font-size: 4.5rem;
+    }
+    h3 {
+    font-size: 3.25rem;
+    }
+    footer h2 {
+      font-size: 2.5rem;
+    }
+}
+@media (min-width: 1200px) {
+    header {
+        background-image: url(../img/hero.jpg);
+    }
+    header h1{
+
+      font-size: 4.5rem;
+    }
+    h3 {
+    font-size: 3.25rem;
+    }
+    footer h2 {
+      font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 575.98px) {
+
+  header {
+      background-image: url(../img/hero.jpg);
+  }
+}
+
+header img {
+  max-width: 100%;
+  height: auto;
+}
+hr {
+  height: 2px;
+  width: 30%;
+  background-color: white;
+}
+.lineshort {
+  height: 2px;
+  width: 20%;
+  background-color: black;
+}
+.legalog {
+  width: 14rem;
+  height: 8rem;
+}
+.date {
+  font-size: 1.56rem;
+}
+a {
+  font-size: 1.6rem;
+}
+h3 {
+  font-size: 2.18rem;
+}
+footer h2 {
+  font-size: 1.875rem;
+}
+footer a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
