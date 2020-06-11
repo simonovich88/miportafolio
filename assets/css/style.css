@@ -105,6 +105,3 @@ footer a {
   color: #FFFFFF;
   text-decoration: none;
 }
-$(function () {
-  $('[data-toggle="tooltip"]').tooltip()
-})
